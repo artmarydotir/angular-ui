@@ -1,0 +1,72 @@
+li.dropdown(ng-class="menu.current === 'admin' ? 'open' : ''" , ng-show="user.role === 'ROLE_ADMIN'")
+  a.dropdown-toggle(href="javascript:void(0);", ng-click="menu.change('admin')")
+    i.fa.fa-lock(aria-hidden="true")
+    | &nbsp; {{ i18n.admin }} &nbsp;
+    span.caret
+    |
+  ul.dropdown-menu
+    li.dropdown-header
+      i.fa.fa-user(aria-hidden="true")
+      | &nbsp; {{ i18n.user }}
+    li
+      a(href="#!/admin/user/add", ng-click="menu.current = ''") {{ i18n.addUser }}
+    li
+      a(href="#!/admin/user/list", ng-click="menu.current = ''") {{ i18n.userList }}
+    li.divider(role="separator")
+    //- category
+    li.dropdown-header
+      i.fa.fa-cube(aria-hidden="true")
+      | &nbsp; {{ i18n.category }}
+    li
+      a(href="#!/admin/category/add", ng-click="menu.current = ''") {{ i18n.addCategory }}
+    li
+      a(href="#!/admin/category/list", ng-click="menu.current = ''") {{ i18n.categoryList }}
+    li.divider(role="separator")
+    //- reportage
+    li.dropdown-header
+      i.fa.fa-sign-language(aria-hidden="true")
+      | &nbsp; {{ i18n.reportage }}
+    li
+      a(href="#!/admin/reportage/list", ng-click="menu.current = ''") {{ i18n.reportageList }}
+    li.divider(role="separator")
+    //- news
+    li.dropdown-header
+      i.fa.fa-newspaper-o(aria-hidden="true")
+      | &nbsp; {{ i18n.news }}
+    li
+      a(href="#!/admin/allnews/list", ng-click="menu.current = ''") {{ i18n.newsList }}
+    li
+      a(href="#!/admin/newsaproved/list", ng-click="menu.current = ''") {{ i18n.approveList }}
+    li
+      a(href="#!/admin/newsunpublish/list", ng-click="menu.current = ''") {{ i18n.unpunlishNews }}
+    li
+      a(href="#!/admin/newspublish/list", ng-click="menu.current = ''") {{ i18n.publishedNews }}
+    li.divider(role="separator")
+    //- website
+    li.dropdown-header
+      i.fa.fa-sitemap(aria-hidden="true")
+      | &nbsp; {{ i18n.websites }}
+    li
+      a(href="#!/admin/site/add", ng-click="menu.current = ''") {{ i18n.registerNewWebsite }}
+    li
+      a(href="#!/admin/site/list", ng-click="menu.current = ''") {{ i18n.websiteList }}
+    li.divider(role="separator")
+    //- invoice
+    li.dropdown-header
+      i.fa.fa-credit-card(aria-hidden="true")
+      | &nbsp; {{ i18n.invoice }}
+    li
+      a(href="#!/admin/invoice/add", ng-click="menu.current = ''") {{ i18n.addInvoice }}
+    li
+      a(href="#!/admin/invoice/list", ng-click="menu.current = ''") {{ i18n.invoiceList }}
+    li
+      a(href="#!/admin/invoice/creditback", ng-click="menu.current = ''") {{ i18n.creditBackAdmin }}
+    li.divider(role="separator")
+    //- credit
+    li.dropdown-header
+      i.fa.fa-exchange(aria-hidden="true")
+      | &nbsp; {{ i18n.credit }}
+    li
+      a(href="#!/admin/credit/add", ng-click="menu.current = ''") {{ i18n.addCredit }}
+    li
+      a(href="#!/admin/credit/sub", ng-click="menu.current = ''") {{ i18n.subCredit }}

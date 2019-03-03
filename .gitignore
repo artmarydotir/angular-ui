@@ -1,0 +1,12 @@
+*~
+
+src/css/lib/*.scss
+src/**/*.min.js
+src/**/*.pack.js
+src/**/*.css
+src/**/*.css.map
+src/**/*.js.map
+
+dist/
+tmp/
+node_modules/
