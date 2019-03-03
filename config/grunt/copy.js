@@ -3,13 +3,13 @@
 module.exports = {
   init: {
     files: [
-      {
-        cwd: 'node_modules/bootstrap/fonts',
-        src: '*.{eot,ttf,woff,woff2,svg}',
-        dest: 'tmp/fonts',
-        filter: 'isFile',
-        expand: true,
-      },
+      // {
+      //   cwd: 'node_modules/angular-material/modules/closure/icon',
+      //   src: '*.{eot,ttf,woff,woff2,svg}',
+      //   dest: 'tmp/fonts',
+      //   filter: 'isFile',
+      //   expand: true,
+      // },
       {
         cwd: 'node_modules/font-awesome/fonts',
         src: '*.{eot,ttf,woff,woff2,svg}',

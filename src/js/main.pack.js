@@ -92,7 +92,8 @@ __webpack_require__(4);
 
 
 window.i18n = {
-  title: 'عنوان'
+  title: 'عنوان',
+  home: ' خانه'
 };
 
 /***/ }),
