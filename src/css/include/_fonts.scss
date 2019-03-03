@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.woff2') format('woff2'),
+    url('../fonts/fontawesome-webfont.woff') format('woff'),
+    url('../fonts/fontawesome-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+    url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+    url('../fonts/glyphicons-halflings-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir.eot');
+  src: url('../fonts/Vazir.eot#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir.woff2') format('woff2'),
+       url('../fonts/Vazir.woff') format('woff'),
+       url('../fonts/Vazir.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir-Bold.eot');
+  src: url('../fonts/Vazir-Bold.eot#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir-Bold.woff2') format('woff2'),
+       url('../fonts/Vazir-Bold.woff') format('woff'),
+       url('../fonts/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: VazirFD;
+  src: url('../fonts/Vazir-FD.eot');
+  src: url('../fonts/Vazir-FD.eot#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir-FD.woff2') format('woff2'),
+       url('../fonts/Vazir-FD.woff') format('woff'),
+       url('../fonts/Vazir-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: VazirFD;
+  src: url('../fonts/Vazir-Bold-FD.eot');
+  src: url('../fonts/Vazir-Bold-FD.eot#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir-Bold-FD.woff2') format('woff2'),
+       url('../fonts/Vazir-Bold-FD.woff') format('woff'),
+       url('../fonts/Vazir-Bold-FD.ttf') format('truetype');
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb-base",
+  "globals": {
+    "window": true
+  },
+  "rules": {
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

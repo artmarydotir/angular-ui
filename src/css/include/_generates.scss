@@ -1,0 +1,60 @@
+@each $s in $pixelSizes {
+  .pad#{$s} {
+    padding: #{$s}px;
+  }
+  .padt#{$s} {
+    padding-top: #{$s}px;
+  }
+  .padb#{$s} {
+    padding-bottom: #{$s}px;
+  }
+  .padr#{$s} {
+    padding-right: #{$s}px;
+  }
+  .padl#{$s} {
+    padding-left: #{$s}px;
+  }
+  .padf#{$s} {
+    @if ($dir == 'rtl') {
+      padding-left: #{$s}px;
+    } @else {
+      padding-right: #{$s}px;
+    }
+  }
+  .padd#{$s} {
+    @if ($dir == 'rtl') {
+      padding-right: #{$s}px;
+    } @else {
+      padding-left: #{$s}px;
+    }
+  }
+  .mar#{$s} {
+    margin: #{$s}px;
+  }
+  .mart#{$s} {
+    margin-top: #{$s}px;
+  }
+  .marb#{$s} {
+    margin-bottom: #{$s}px;
+  }
+  .marr#{$s} {
+    margin-right: #{$s}px;
+  }
+  .marl#{$s} {
+    margin-left: #{$s}px;
+  }
+  .marf#{$s} {
+    @if ($dir == 'rtl') {
+      margin-left: #{$s}px;
+    } @else {
+      margin-right: #{$s}px;
+    }
+  }
+  .mard#{$s} {
+    @if ($dir == 'rtl') {
+      margin-right: #{$s}px;
+    } @else {
+      margin-left: #{$s}px;
+    }
+  }
+}

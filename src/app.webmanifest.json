@@ -1,0 +1,10 @@
+{
+  "dir": "rtl",
+  "lang": "fa",
+  "name": "پونا - آژانس انتشار اخبار سفارشی",
+  "short_name": "پونا",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "تبلیغات اینترنتی و رپورتاژ آگهی"
+}
